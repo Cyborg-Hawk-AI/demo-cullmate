@@ -1,0 +1,152 @@
+{
+  "idea": {
+    "name": "CullMate",
+    "fingerprint": "ai-wedding-photo-culling-saas",
+    "pitch": "AI culls thousands of wedding RAW photos into a client-ready gallery automatically.",
+    "cluster": "user-submitted",
+    "target_customer": "Solo and small-studio wedding photographers shooting 20-50 weddings/year who spend 4-8 hours per wedding on manual culling",
+    "core_features": [
+      "Automated RAW ingestion and duplicate grouping",
+      "AI best-shot selection (sharpness, eyes open, expression scoring)",
+      "Client-ready gallery export",
+      "Lightroom/Capture One catalog integration",
+      "Per-wedding processing dashboard"
+    ],
+    "pricing_model": "Flat monthly subscription, unlimited images",
+    "price_point": "$49/month",
+    "gtm_channel": "Wedding photography Facebook groups, YouTube tutorials, affiliate deals with photography educators",
+    "competitive_landscape": "Aftershoot (dominant, full workflow), Narrative Select, FilterPixel, Imagen AI, ON1 AI Culling \u2014 all established, all at similar price points, all with years of training data advantage",
+    "unfair_advantage": "None identifiable \u2014 this is a commodity feature set already served by multiple funded products with large user bases and proprietary training datasets",
+    "mvp_estimate": "Python/FastAPI backend + React frontend + cloud GPU inference (AWS/Replicate) + S3 storage; 8-12 weeks minimum, likely 16+ for reliable RAW processing at scale",
+    "agentic_automation": "File upload triggers async GPU culling pipeline; results auto-delivered via email/gallery link; billing via Stripe webhooks; support handled by FAQ bot. Ops are automatable but the business problem is differentiation, not automation.",
+    "origin_story": "The user identified a real and well-documented pain: wedding photographers routinely cull 2,000-4,000 RAW files per wedding, taking 4-8 hours manually. Reddit threads confirm this is a 'stab your eyes out' problem. However, the evidence gathered reveals that Aftershoot already solves this problem end-to-end \u2014 culling 2,613 RAW files in 18 minutes, grouping duplicates, picking best shots, and creating client galleries. Multiple other competitors (Narrative Select, FilterPixel, Imagen AI) also compete here. The opportunity was real but has already been captured.",
+    "automation_playbook": "After launch, file processing is fully async via cloud GPU queues. Stripe handles billing. Onboarding is self-serve. However, maintaining competitive AI model quality requires ongoing training data curation and model updates \u2014 this is not a set-and-forget product. Competing on model quality against Aftershoot's years of labeled wedding photography data is a sustained engineering investment, not passive income. Estimated owner hours/week at maturity: 15-20 (mostly model maintenance and customer churn firefighting).",
+    "maintenance_hours_per_week": 18,
+    "keywords": [
+      "AI photo culling",
+      "wedding photography workflow",
+      "aftershoot alternative"
+    ],
+    "supporting_urls": [
+      "https://aftershoot.com/",
+      "https://fstoppers.com/software/aftershoot-just-became-entire-ai-photography-workflow-903026",
+      "https://www.reddit.com/r/WeddingPhotography/comments/1o7hj7l/aftershoot_is_a_waste_of_money/",
+      "https://www.on1.com/blog/ai-photo-culling-for-weddings/",
+      "https://adventureweddingacademy.com/culling-software-for-photographers/"
+    ],
+    "weighted_total": 38,
+    "checklist": {
+      "ten_plus_posts_same_pain": true,
+      "paying_for_inferior_solution": false,
+      "reachable_channel": true,
+      "mvp_under_4_weeks": false,
+      "price_point_high_enough": false,
+      "hair_on_fire": true,
+      "can_presell": false,
+      "fewer_than_3_competitors": false,
+      "low_maintenance_ops": false
+    },
+    "checklist_passed": 3,
+    "momentum": "unknown",
+    "rising_queries": [],
+    "gate_result": "focused mode: built on request (verdict: avoid)"
+  },
+  "pain_points": [
+    {
+      "title": "Aftershoot | Best AI Culling, Editing & Retouching Software for ...",
+      "url": "https://aftershoot.com/",
+      "snippet": "Full Access for 30 days | No credit card | No per-image fees\n### Reclaim 39+ Hours/Month\nSpend more time on the creative decisions.\n...\n### One Subscription.\nUnlimited Usage.\nFlat pricing for your complete post-shoot workflow.\n...\nAftershoot is an AI-powered photo post-processing software for photographers.\nIt helps you cull, edit, and retouch images faster in one app, while keeping your work consistent and true to your style, across the album.\n...\nWe also offer unlimited image processing at a flat fee which means no matter how big your shoot is, the cost is always predictable.\n...\n- ### How m",
+      "source": "reddit"
+    },
+    {
+      "title": "Aftershoot Just Became an Entire AI Photography Workflow",
+      "url": "https://fstoppers.com/software/aftershoot-just-became-entire-ai-photography-workflow-903026",
+      "snippet": "This is no longer just an AI culling app.\nAftershoot can now cull, edit, retouch, export, create client galleries, and even help sell prints, all without needing to jump into Lightroom, Capture One, Photoshop, or a separate gallery service.\nTo test it, I uploaded an entire wedding with 2,613 RAW files.\nAftershoot culled the full shoot in about 18 minutes, grouped duplicate images together, picked the best shots, and even showed me which faces were in focus and which people had their eyes open.\n...\nAfter that, I clicked Create Gallery, and Aftershoot uploaded the edited and retouched images int",
+      "source": "reddit"
+    },
+    {
+      "title": "Aftershoot: The Ultimate AI Culling and Editing Software for ...",
+      "url": "https://www.strieglerphoto.com/blog/aftershoot-the-ultimate-ai-culling-and-editing-software-for-photographers/",
+      "snippet": "Aftershoot is revolutionizing the way photographers manage their workflow through its advanced AI culling and editing capabilities.\n...\nWith Aftershoot, the time-consuming tasks of selecting the best photos and editing them are streamlined, letting myself and other professional get things done with less work.\n...\nAftershoot helps with two of the main things in a photographer\u2019s workflow: culling and editing.\nIt intelligently analyzes images to help photographers quickly identify and select the best images from a shoot, whether it\u2019s a wedding or a portrait session.\nBy utilizing advanced algorith",
+      "source": "reddit"
+    },
+    {
+      "title": "Using AI to cull photos?",
+      "url": "https://www.reddit.com/r/WeddingPhotography/comments/1gf3h97/using_ai_to_cull_photos/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "Culling Software For Photographers - Which is Best in 2026?",
+      "url": "https://adventureweddingacademy.com/culling-software-for-photographers/",
+      "snippet": "It\u2019s not full AI culling, i.e., it doesn\u2019t make the decisions for you, but rather it uses AI to assist with culling by helping you make decisions faster.\n...\nNarrative Select offers a free 30-day trial (and you don\u2019t need to give them your credit card to get the free trial).\nIf you love it, after the trial is over, they have four different subscription options (depending on whether you want just culling or culling plus AI editing).\nUse the code \u2018**adventureweddingacademy**\u2018 to save 10% on your subscription.\n...\n**The Price:**\nYou can try FilterPixel on 4 projects for free, including their new ",
+      "source": "reddit"
+    },
+    {
+      "title": "[deleted by user]",
+      "url": "https://www.reddit.com/r/WeddingPhotography/comments/zcn9ox/deleted_by_user/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "how do you cull fast without skipping the good stuff?",
+      "url": "https://www.reddit.com/r/Lightroom/comments/1msl0p8/how_do_you_cull_fast_without_skipping_the_good/n965q1h/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "Best AI Photo Culling Software for Weddings | Save Hours ...",
+      "url": "https://www.on1.com/blog/ai-photo-culling-for-weddings/",
+      "snippet": "AI photo culling uses machine learning algorithms to analyze and sort large batches of images automatically.\nIt evaluates technical aspects like sharpness, facial expressions, eyes open or closed, and duplicates\u2014helping photographers quickly find the best shots.\nSaving a ton of time.\n...\n## Time Savings When Using AI Culling for Wedding Photos\nOn average:\n- Manual Lightroom culling: 4\u20138 hours\n- Photo Mechanic: 2\u20134 hours\n- AI tools like AfterShoot or Narrative Select: 20\u201360 minutes\nPhotographers using AI tools report saving up to 7-10 full days per season, depending on volume.",
+      "source": "reddit"
+    },
+    {
+      "title": "Aftershoot is a waste of money.",
+      "url": "https://www.reddit.com/r/WeddingPhotography/comments/1o7hj7l/aftershoot_is_a_waste_of_money/",
+      "snippet": "However, I\u2019m now realizing how ineffective this \"AI\" software really is.\nWhile it somewhat identifies duplicates and recognizes faces, I rarely find those features useful.\nHonestly, it feels more like a random photo selector than a true AI tool, as it seems to assign five stars arbitrarily.\n...\nPersonally, I've relied on Aftershoot for several years, and it has significantly streamlined my process.\nTasks that used to take me three hours to cull now take less than one, and my editing time has dropped from ten hours to under three.",
+      "source": "reddit"
+    },
+    {
+      "title": "Do AI Culling and Editing Tools Actually Work for Lifestyle Photographers?",
+      "url": "https://www.reddit.com/r/AskPhotography/comments/1u9xzxa/do_ai_culling_and_editing_tools_actually_work_for/",
+      "snippet": "These applications seem tailored primarily for wedding photographers who capture thousands of images during events.\nIn that scenario, even a flawed tool can save considerable time by streamlining selections and applying a fairly consistent edit across a vast gallery.",
+      "source": "reddit"
+    },
+    {
+      "title": "Sam's right. Lightroom Assisted Culling sucks.",
+      "url": "https://www.reddit.com/r/WeddingPhotography/comments/1op2q3f/sams_right_lightroom_assisted_culling_sucks/",
+      "snippet": "It ended up making what should have been a two-hour task stretch to three hours.\nI've experimented with several of these over the years, and the outcome is consistently disappointing.\nIf you value the quality of your work, they really don\u2019t save any time at all.",
+      "source": "reddit"
+    },
+    {
+      "title": "Do you find helpful using AI for culling? (Please, only real commenters without ties to any company)",
+      "url": "https://www.reddit.com/r/WeddingPhotography/comments/1h06n74/do_you_find_helpful_using_ai_for_culling_please/",
+      "snippet": "Try Wildernis Lab.",
+      "source": "reddit"
+    },
+    {
+      "title": "Using AI to cull photos?",
+      "url": "https://www.reddit.com/r/WeddingPhotography/comments/1gf3h97/using_ai_to_cull_photos/",
+      "snippet": "What I appreciate about Aftershoot is that it reduces the number of images I need to manually cull from several thousand to just over a thousand for each full-day wedding.\nIt generally does a good job of filtering out photos where subjects are blinking or where focus is off.\nWhile its performance with candid shots isn\u2019t as strong, it effectively identifies the best group shot from each arrangement.",
+      "source": "reddit"
+    },
+    {
+      "title": "Hands up if culling makes you want to stab your eyes out. \ud83e\udd23",
+      "url": "https://www.reddit.com/r/WeddingPhotography/comments/16wf9c6/hands_up_if_culling_makes_you_want_to_stab_your/",
+      "snippet": "As another time saver I automatically select all the family/wedding party/couples photos and 5 star everything.\nMost of those shots share similar lighting/style and I can batch edit settings in a click.\n...\nAftershoot has been a total game changer for me.\n...\nIt loads the raw files instantly without importing them to my hard drive, it is lightning fast for organizing and rating, and it makes the actual import time faster since I\u2019m only copying my selects.",
+      "source": "reddit"
+    },
+    {
+      "title": "How are the leading AI Culling/Editing Software evolving?",
+      "url": "https://www.reddit.com/r/WeddingPhotography/comments/1drdai6/how_are_the_leading_ai_cullingediting_software/",
+      "snippet": "From my experience, AI culling can assist with 50-70% of the cull.\nYou still have to do the final part manually.\n...\nhttps://www.fotolabai.com/ This might interest you if you like automation.\nWe've just released it, and are looking for people to beta test it.\nIt automates Lightroom adjustments using AI.\nIt doesn't need the cloud, and performs both training and editing on device.\n...\nHi, i made Picker AI which uses our 100% private AI so your photos never leave your device.\nThe app is currently catered towards helping people pick the best photos and rank them for different social media apps lik",
+      "source": "reddit"
+    },
+    {
+      "title": "Are Ai culling tools worth it?",
+      "url": "https://www.reddit.com/r/AskPhotography/comments/13ucx7o/are_ai_culling_tools_worth_it/",
+      "snippet": "I just used it to cull a performance shoot, and it doesn\u2019t remove anything, it just adds a color label or stars.\n...\nI use AfterShoot for some shoots where it provides some value, but with weddings for me it provides risk and little to no value.\nIt \u201cselects\u201d about 40% of the images and I need to review both the culled-in and culled-out images.\n...\nI don't shoot weddings nor have I used these but the two big ones are:\nhttps://imagen-ai.com/\nhttps://aftershoot.com/",
+      "source": "reddit"
+    }
+  ]
+}
